@@ -28,11 +28,11 @@ public class MyController {
 	public String home(Model mod) {
 		Booked booked = new Booked(
 				1,
-				"Srin Sreynich",
-				"8487579384",
-				"srrynich123@gmail.com",
+				"Va Panharith",
+				"098765753",
+				"panharith@gmail.com",
 				"11/25/2025",
-				"5:17 PM",
+				"4:45 PM",
 				5
 				);
 		
@@ -55,11 +55,11 @@ public class MyController {
 	public String reservation(Model mod) {
 		Booked booked = new Booked(
 				1,
-				"Srin Sreynich",
-				"8487579384",
-				"srrynich123@gmail.com",
+				"Va Panharith",
+				"098765753",
+				"panharith@gmail.com",
 				"11/25/2025",
-				"5:17 PM",
+				"4:45 PM",
 				5
 				);
 		
