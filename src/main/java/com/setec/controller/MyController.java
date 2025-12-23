@@ -28,12 +28,12 @@ public class MyController {
 	public String home(Model mod) {
 		Booked booked = new Booked(
 				1,
-				"Kimheng",
+				"Panharith",
 				"098765753",
-				"kimheng@gmail.com",
+				"Panharith@gmail.com",
 				"11/25/2025",
-				"7:45 PM",
-				2
+				"4:45 PM",
+				5
 				);
 		
 		mod.addAttribute("booked",booked);		
@@ -55,12 +55,12 @@ public class MyController {
 	public String reservation(Model mod) {
 		Booked booked = new Booked(
 				1,
-				"Kimheng",
+				"Panharith",
 				"098765753",
-				"kimheng@gmail.com",
+				"Panharith@gmail.com",
 				"11/25/2025",
-				"7:45 PM",
-				2
+				"4:45 PM",
+				5
 				);
 		
 		mod.addAttribute("booked",booked);		
